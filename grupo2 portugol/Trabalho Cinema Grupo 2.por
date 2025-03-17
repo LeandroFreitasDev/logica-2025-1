@@ -48,7 +48,7 @@ programa {
         //Mensagem de erro digitar posição que não existe
         
         senao{
-          se(posicao_coluna < 0 ou posicao_coluna > 9){
+          se(posicao_coluna < 0 ou posicao_coluna > 11){
             escreva("\nPosição Inválida. Digite outra posição válida!\n")
           }
 
